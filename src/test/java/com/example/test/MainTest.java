@@ -8,7 +8,9 @@ public class MainTest {
     @Test
     public void testbasicfuncion () {
         int x = 5;
-        assertEquals (5,x);
+        int y = 10;
+        assertEquals (5, x);
+        assertEquals (10, y);
 
     }
 }
